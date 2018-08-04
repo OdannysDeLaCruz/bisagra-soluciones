@@ -1,0 +1,221 @@
+
+/*--------MEDIAS QUERYS----------*/
+
+/*-------PAGINA DE INICO---------*/
+
+@media (max-width: 480px){
+	
+	/*--BUSCAR TRABAJADOR--*/
+	.carrusel_area_titulo, .final_carrusel_area {
+		font-size: 20px;
+	}
+	.titulo_area_animado {
+		font-size: 23px;
+	}
+	.buscar_trabajador > p {
+		font-size: 18px;
+	}
+	/*--AREAS--*/
+	.titulo_areas h1 {
+		font-size: 23px; 
+	}
+	.titulo_areas p {
+		font-size: 18px; 
+	}
+
+	/*--BENEFICIOS*/
+	.beneficio_titulo {
+		font-size: 13px;
+	}
+	.beneficio_subtitulo {
+		font-size: 25px;
+	}
+	.beneficio_text {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	/*--TRABJADORES--*/
+	.trabajador {
+		width: 250px;
+		height: 350px;
+	}
+	.trabajador figure {
+		width: 100px;
+		height: 100px;
+	}
+	.trabajador figure img {
+		width: 100px;
+	}
+
+	/*---FIN ESTILOS DE PAGINA INICIO---*/
+
+	/*--INICIO ESTILOS DE PAGINA TRABAJADORES--*/
+	.mensaje_text {
+		font-size: 15px;
+	}
+	/*--FIN ESTILOS DE PAGINA TRABAJADORES--*/
+	/*--INICIO ESTILOS DE PAGINA AREAS--*/
+	.contenedor_areas_interno {
+		grid-template-columns: none;
+}
+	.contenedor_areas_tarjetas {
+		width: 300px;
+	}
+	/*--FIN ESTILOS DE PAGINA AREAS--*/
+	/*--INICIO ESTILOS DE PAGINA REGISTRO--*/
+	.registro_titulo {
+		font-size: 14px;
+	}
+	.registro_texto {
+		font-size: 13px;
+	}
+	.registro_contenedor {
+		height: auto;
+	}
+	/*--FIN ESTILOS DE PAGINA REGISTRO--*/
+	/*--INICIO DE ESTILOS DE PAGINA DE PERFIL TRABAJADORES --*/
+	
+	/*--PERFIL--*/
+	.perfil_datos_info_nombre {
+		font-size: 15px;
+	}
+	.perfil_datos_info_profesion,
+	.perfil_datos_info_edad {
+		font-size: 13px;
+	}
+	/*--CONTENEDOR MODEL--*/
+	.mimodal_titulo {
+		font-size: 17px;
+	}
+	.mimodal_fecha_iniciado,
+	.mimodal_fecha_termino,
+	.mimodal_area,
+	.mimodal_nombre_trabajador,
+	.mimodal_descripcion_titulo {
+		font-size: 16px;
+	}
+	.mimodal_descripcion_texto p {
+		font-size: 15px;
+	}
+	/*--FIN DE ESTILOS DE PAGINA DE PERFIL-TRABAJADOR--*/
+}
+
+@media (max-width: 767px){
+	/*--INICIO DE ESTILOS DE PAGINA DE PERFIL--*/
+	/*--INFORMACION PERFIL--*/
+	
+	.contenedor_nav {
+		border-right: none;
+		border-bottom: 3px solid grey;
+	}
+	.contenedor_nav_links {
+		justify-content: center;
+		flex-direction: row;
+	}
+	.contenedor_nav_links .link {
+		width: 40%;
+		display: inline-block;
+
+	}
+	.trabajos_realizados figure {
+		display: none;
+	}	
+	/*--FIN DE ESTILOS DE PAGINA DE PERFIL-TRABAJADOR--*/
+}
+@media (max-width: 776px){
+	.tarjetas_flex_reverse {
+		flex-direction: row-reverse;
+	}
+	.beneficio_info, .tarjetas_flex_reverse .beneficio_info {
+		text-align: center;
+	}
+	.beneficio_info {
+		margin-bottom: 20px;
+	}
+	.beneficio_text {
+		text-align: justify;
+	}
+	/*---FIN ESTILOS DE PAGINA INICIO---*/
+
+	/*--INICIO ESTILOS DE PAGINA NOSOTROS--*/
+}
+
+
+@media (min-width: 300px) and (max-width: 900px){
+	
+	/*--Estilos del menu en dispositivos moviles----*/
+	.nav_principal {
+		background: rgba(36,55,91, 0.9);
+		position: fixed;
+		z-index: 10;
+		top: 0;
+	  	display: flex;
+	  	width: 100%;
+	  	height: 100%;
+		left: -100%;
+	  	justify-content: space-between; 
+	  	align-items: center;
+	  	transition: all .2s ease;
+	}
+	.nav_principal ul {
+		align-items: center;
+	    display: flex; 
+	  	flex-direction: column;
+	    justify-content: center;
+	    width: 100%;
+	    height: 100%;
+	    padding-right: 20px;
+	}
+	.nav_principal li {
+	    list-style: none;
+	    margin: 10px 0;
+	}
+	.nav_principal ul li:not(.btn) {
+		border-right: none;
+	}
+	.nav_principal a {
+		color: #fff;
+	}
+	.cerrar_menu {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		font-size: 30px;
+		color: #fff;
+		padding: 10px;
+		border: 1px solid #fff;
+		border-radius: 5px;
+		cursor: pointer;
+
+	}
+
+	.abrir_menu {
+		display: block;
+		position: absolute;
+		font-size: 30px;
+		color: #fff;
+		right: 30px;
+		top: 15px;
+		cursor: pointer;
+		align-self: center;
+	}
+	/*--BUSCAR TRABAJADOR--*/
+	/*---Esconder el texto 'buscar' del buscador de trabajador---*/
+	.boton_buscar_texto {
+		display: none;
+	}
+	/*--BENEFICIOS--*/
+	.beneficio_img img {
+		width: 200px;
+	}
+
+	/*---FIN ESTILOS DE PAGINA INICIO---*/
+
+	/*--INICIO ESTILOS DE PAGINA NOSOTROS--*/
+
+	/*--CONTENIDO--*/
+	
+}
+
+

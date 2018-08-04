@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="100"
+   viewBox="0 0 79.374998 26.458334"
+   version="1.1"
+   id="svg1025"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs1019" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#4f4f4f"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.7233333"
+     inkscape:cx="150"
+     inkscape:cy="52.903524"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-page="false" />
+  <metadata
+     id="metadata1022">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-270.54165)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.86013269px;line-height:0;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22781871"
+       x="51.979069"
+       y="288.63815"
+       id="text1530-3"
+       inkscape:export-xdpi="171.68448"
+       inkscape:export-ydpi="171.68448"
+       inkscape:export-filename="D:\PROYECTO_BISAGRA\Desarrolloweb\img\iconos\png\logotipo_bisagra.png"><tspan
+         sodipodi:role="line"
+         id="tspan1528-2"
+         x="51.979069"
+         y="288.63815"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.58039761px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic Bold';fill:#ffffff;stroke-width:0.22781871">Bisagra</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00fff3;stroke-width:2.20664763;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect1215-4-2-9-2-5"
+       width="19.92454"
+       height="19.92454"
+       x="1.8813536"
+       y="274.45767"
+       rx="2.6423614"
+       ry="2.6423619"
+       inkscape:export-xdpi="171.68448"
+       inkscape:export-ydpi="171.68448"
+       inkscape:export-filename="D:\PROYECTO_BISAGRA\Desarrolloweb\img\iconos\png\logotipo_bisagra.png" />
+    <g
+       id="g2391-1"
+       transform="translate(21.411278,-28.124677)"
+       style="fill:#00fff3;fill-opacity:1;stroke:none">
+      <path
+         style="fill:#00fff3;fill-opacity:1;stroke:none;stroke-width:0.09999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -38.498047,127.50586 c -1.490106,-0.003 -3.07411,0.40003 -4.626953,1.19726 -3.508532,1.45728 -8.864865,3.34681 -10.628906,4.11133 -6.585377,2.08332 -6.680595,7.11823 -5.726563,9.69727 l -3.507812,1.36328 4.871093,12.57031 3.492188,-1.36914 4.503906,11.5293 -3.529297,1.36719 4.871094,12.56836 3.533203,-1.36719 1.226563,3.20508 c 2.090313,5.22633 6.149267,4.10076 7.935547,3.26953 l 20.769531,-8.04688 c 2.085316,-0.7827 4.951914,-2.73006 2.984375,-7.96289 l -6.494141,-16.8457 c -0.996998,-2.68388 -2.640324,-5.96605 -7.023437,-5.0957 l -5.496094,-14.20118 c -1.050492,-4.02124 -3.876063,-5.98465 -7.154297,-5.99023 z m -1.380859,7.31445 c 1.029147,-0.055 1.85938,0.52632 2.550781,2.50391 l 3.953125,10.25976 c 0.820906,2.33031 -0.332516,2.92275 -1.515625,3.48829 l -8.617187,3.33789 c -1.543817,0.72381 -3.482614,1.22059 -4.371094,-1.18164 l -3.947266,-10.25782 c -0.443807,-1.16356 -1.585437,-3.29841 1.59375,-4.34961 l 8.273438,-3.17773 c 0.772511,-0.32715 1.462589,-0.59006 2.080078,-0.62305 z m 12.160156,21.85547 c 1.327451,-0.0364 2.62163,0.61971 3.375,2.72656 l 3.316406,8.67578 c 0.979945,2.29191 -0.396008,3.71982 -1.332031,4.17579 l -11.462891,4.48632 c -1.884937,0.82697 -4.146941,0.79921 -5.107422,-1.98437 l -3.384765,-8.73242 c -0.47455,-1.39537 -0.836726,-3.70517 2.111328,-4.7168 l 10.167969,-3.98047 c 0.712685,-0.35624 1.519936,-0.62853 2.316406,-0.65039 z"
+         transform="matrix(0.26458333,0,0,0.26458333,0.30914284,271.02254)"
+         id="path2343-9-8"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
