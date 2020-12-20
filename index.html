@@ -1,10 +1,3 @@
-<?php 
-	include_once ('Model/procesarDatosModel.php');
-	$obj = New procesarDatosModel();
-	$areas = $obj->getAreas();
-	$trabajadores = $obj->getSomeWorkers(6);
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -24,7 +17,24 @@
 </head>
 <body>
 	<!-- INICIO DE HEADER -->
-	<?php include('modulos/header.php') ?>
+	<header class="header_principal">
+		<figure>
+			<a href="index.html">
+				<img src="img/iconos/logo.svg" alt="Bisagra | Solución inmediata">	
+			</a>
+		</figure>
+		<nav class="nav_principal">
+			<span class="fa fa-times cerrar_menu"></span>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">¿Que hacemos?</a></li>
+				<li><a href="areas.html">Áreas</a></li>
+				<li><a href="trabajadores.html">Trabajadores</a></li>
+				<li class="btn"><a href="contacto.html" class="boton_iniciar_sesion btn btn-primary boton_defauld">Contactar</a></li>
+			</ul>
+		</nav>
+		<span class="fa fa-bars abrir_menu"></span>
+	</header>
 	<!-- FIN DE HEADER -->
 	<!-- INICIO DE BUSCAR TRABAJADOR -->
 	<div class="buscar_trabajador">
@@ -42,14 +52,14 @@
 
 		<div class="row">
 			<div class="col-xs-12 buscar_trabajador_ver_areas">
-				<a href="/trabajadores" class="btn_mas_areas">
+				<a href="trabajadores.html" class="btn_mas_areas">
 					<button class="btn btn-primary boton_defauld">Ver trabajadores</button>
 				</a>				
 			</div>
 		</div>
 		<p>
 			Bisagra es la solución mas efectiva de encontrar un trabajador rápidamente.
-			Conoce nuestras <a href="/terminos">politicas y condiciones</a> de contratación.
+			Conoce nuestras <a href="terminos.html">politicas y condiciones</a> de contratación.
 		</p>			
 	</div> 
 	<!-- FIN DE BUSCAR TRABAJADOR -->
@@ -61,19 +71,72 @@
 				<h1>Tenemos mas de 20 Expertos y 10 Areas de Trabajos.</h1>
 				<p>Escoge al experto indicado ó contrata mas de uno a la vez.</p>
 			</div>	
-			<?php foreach($areas as $key => $area) { ?>
 				<div class="col-xs-12 col-sm-12 col-md-4 tarjeta">
 					<figure>
-						<img src="<?php echo $area['Logo_area'] ?>" alt="Logo de Area">			
+						<img src="img/iconos/albanileria.png" alt="Logo de Area">			
 					</figure>
 					<div class="tarjeta_info">
 						<span class="tarjeta_text">Area de</span>
-						<span class="tarjeta_title"><?php echo $area['Nombre_area'] ?></span>
-						<!-- <span class="tarjeta_expert">4 Expertos</span> -->
+						<span class="tarjeta_title">Nombre de Area</span>
+						<span class="tarjeta_expert">4 Expertos</span>
 					</div>	
-					<a href="areas?area=<?php echo ($area['Link_area']) ?>" class="tarjeta_link"></a>				
+					<a href="" class="tarjeta_link"></a>				
 				</div>
-			<?php } ?>
+				<div class="col-xs-12 col-sm-12 col-md-4 tarjeta">
+					<figure>
+						<img src="img/iconos/baldosas.png" alt="Logo de Area">			
+					</figure>
+					<div class="tarjeta_info">
+						<span class="tarjeta_text">Area de</span>
+						<span class="tarjeta_title">Nombre de Area</span>
+						<span class="tarjeta_expert">4 Expertos</span>
+					</div>	
+					<a href="" class="tarjeta_link"></a>				
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 tarjeta">
+					<figure>
+						<img src="img/iconos/carpinteria.png" alt="Logo de Area">			
+					</figure>
+					<div class="tarjeta_info">
+						<span class="tarjeta_text">Area de</span>
+						<span class="tarjeta_title">Nombre de Area</span>
+						<span class="tarjeta_expert">4 Expertos</span>
+					</div>	
+					<a href="" class="tarjeta_link"></a>				
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 tarjeta">
+					<figure>
+						<img src="img/iconos/cocina.png" alt="Logo de Area">			
+					</figure>
+					<div class="tarjeta_info">
+						<span class="tarjeta_text">Area de</span>
+						<span class="tarjeta_title">Nombre de Area</span>
+						<span class="tarjeta_expert">4 Expertos</span>
+					</div>	
+					<a href="" class="tarjeta_link"></a>				
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 tarjeta">
+					<figure>
+						<img src="img/iconos/drywall.png" alt="Logo de Area">			
+					</figure>
+					<div class="tarjeta_info">
+						<span class="tarjeta_text">Area de</span>
+						<span class="tarjeta_title">Nombre de Area</span>
+						<span class="tarjeta_expert">4 Expertos</span>
+					</div>	
+					<a href="" class="tarjeta_link"></a>				
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 tarjeta">
+					<figure>
+						<img src="img/iconos/plomeria.png" alt="Logo de Area">			
+					</figure>
+					<div class="tarjeta_info">
+						<span class="tarjeta_text">Area de</span>
+						<span class="tarjeta_title">Nombre de Area</span>
+						<span class="tarjeta_expert">4 Expertos</span>
+					</div>	
+					<a href="" class="tarjeta_link"></a>				
+				</div>
 
 			<div class="col-xs-12 tarjeta_boton_mas">
 				<a href="/areas" class="btn_mas_areas">
@@ -92,7 +155,7 @@
 				<h2 class="beneficio_titulo">Velocidad en respuesta</h2>
 				<h2 class="beneficio_subtitulo">Respuesta casi inmediata</h2>
 				<p class="beneficio_text">Te respondemos dentro de las proximas 24 horas siguientes.</p>
-				<a href="/contactar" class="beneficio_link">
+				<a href="contacto.html" class="beneficio_link">
 					<button class="btn btn-primary boton_defauld">Contactar</button>
 				</a>
 			</div>
@@ -105,7 +168,7 @@
 				<h2 class="beneficio_titulo">Trabajadores enfocados</h2>
 				<h2 class="beneficio_subtitulo">Trabajadores Experimentados y proyectados en sus areas.</h2>
 				<p class="beneficio_text">Cada uno de los trabajadores disponibles estan preparados para realizar las tareas o trabajos asignados, olvidate de contratar trabajadores que no saben lo que tu necesitas.</p>
-				<a href="/areas" class="beneficio_link">
+				<a href="areas.html" class="beneficio_link">
 					<button class="btn btn-primary boton_defauld">Areas</button>
 				</a>
 			</div>
@@ -118,10 +181,10 @@
 				<h2 class="beneficio_titulo">Confianza, seguridad y tranquilidad</h2>
 				<h2 class="beneficio_subtitulo">Datos del trabajador siempre disponible</h2>
 				<p class="beneficio_text">Para tu confianza, seguridad y tranquilidad, los datos del trabajador contratado, estaran siempre disponibles antes, durantes y despues de llegar a un acuerdo con nosotros. <br> Ademas cuentas con el apoyo y soporte del equipo Bisagra.</p>
-				<a href="/trabajadores" class="beneficio_link">
+				<a href="trabajadores.html" class="beneficio_link">
 					<button class="btn btn-primary boton_defauld">Trabajadores</button>
 				</a>
-				<a href="/soporte" class="beneficio_link">
+				<a href="" class="beneficio_link">
 					<button class="btn btn-primary boton_defauld">Soporte técnico</button>
 				</a>
 			</div>
@@ -134,7 +197,7 @@
 				<h2 class="beneficio_titulo">Sin preocupaciones</h2>
 				<h2 class="beneficio_subtitulo">Un solo punto de acuerdo</h2>
 				<p class="beneficio_text">De la contratación, comunicación y transacciones con el trabajador nos encargamos nosotros.</p>
-				<a href="/contacto" class="beneficio_link">
+				<a href="contacto.html" class="beneficio_link">
 					<button class="btn btn-primary boton_defauld">Contactar</button>
 				</a>
 			</div>
@@ -153,25 +216,24 @@
 				<h2>Ellos estan para ayudarte</h2>
 			</div>	
 			
-			<?php foreach($trabajadores as $key => $trabajador) { ?>
+			<?php for($i = 0; $i <= 10; $i++) { ?>
 				<div class="col-xs-12 col-sm-12 col-md-4 trabajador">
 					<figure>
-						<img src="<?php echo $trabajador['foto_perfil'] ?>" alt="Imagen del trabajador">			
+						<img src="" alt="Imagen del trabajador">			
 					</figure>
 					<span class="trabajador_nombre">
-						<?php echo $trabajador['primer_nombre'] . " " . $trabajador['segundo_nombre'] ?>
+						Odannys Enrique
 					</span>
 					<span class="trabajador_apellido">
-						<?php echo $trabajador['primer_apellido'] . " " . $trabajador['segundo_apellido'] ?>
+						De La Cruz Calvo
 					</span>
 					<span class="trabajador_items">Especialidad: 
-						<span class="especialidad"><?php echo $trabajador['area'] ?></span>
+						<span class="especialidad">Programador</span>
 					</span>
-					<a href="/trabajadores/<?php echo $trabajador['primer_nombre'] ?>_<?php echo $trabajador['segundo_nombre'] ?>_<?php echo $trabajador['primer_apellido'] ?>_<?php echo $trabajador['segundo_apellido'] ?>" class="trabajador_link">
+					<a href="/trabajadores/odannys_enrique_delacruz_calvo" class="trabajador_link">
 						<button class="btn btn-primary boton_defauld">Ver perfil</button>
 					</a>
-				</div>
-				
+				</div>				
 			<?php } ?>
 			
 			<span class="col-xs-12 trabajadores_link">
@@ -184,11 +246,52 @@
 	<!-- FIN DE TRABAJADORES-->
 
 	<!-- INICIO DE FOOTER -->
-	<?php include('modulos/footer.php') ?>
+	<footer>
+		<section class="flex-column flex-sm-row footer_contenedor row">
+			<div class="align-self-center align-self-sm-start footer_section">
+				<h1 class="footer_titulo">Conectate con Bisagra</h1>
+				<ul>
+					<li class="footer_item_link"><a href="/contacto.php">Contactar</a></li>
+					<!-- <li class="footer_item_link"><a href="/soporte">Soporte al Cliente</a></li> -->
+					<li class="footer_item_link"><a href="/terminos">Terminos y condiciones</a></li>
+				</ul>
+			</div>
+			<div class="align-self-center align-self-sm-start footer_section">
+				<h1 class="footer_titulo">Nuestro Equipo</h1>					
+				<ul>
+					<li class="footer_item_link"><a href="/areas">Areas</a></li>
+					<li class="footer_item_link"><a href="/trabajadores">Trabajadores</a></li>
+				</ul>
+			</div>
+			<div class="align-self-center align-self-sm-start footer_section">
+				<h1 class="footer_titulo">Redes Sociales</h1>
+				<ul>
+					<li class="footer_item_link">
+						<span class="fa fa-facebook"></span> Facebook
+						<a class="link" href="https://www.facebook.com/"></a>
+					</li>
+					<li class="footer_item_link">
+						<span class="fa fa-twitter"></span> Twitter
+						<a class="link" href="https://www.twitter.com/"></a>
+					</li>
+					<li class="footer_item_link">
+						<span class="fa fa-instagram"></span> Instagram
+						<a class="link" href="https://www.instagram.com/"></a>
+					</li>
+					<li class="footer_item_link">
+						<span class="fa fa-phone"></span> Teléfono
+					</li>
+				</ul>
+			</div>
+		</section>
+	</footer>
 	<!-- FIN DE FOOTER -->
 
 	<!-- INICIO DE SCRIPT -->
-	<?php include('modulos/scripts_js.php') ?>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/mi-app.js"></script>
 	<!-- FIN DE SCRIPT -->
 
 </body>
